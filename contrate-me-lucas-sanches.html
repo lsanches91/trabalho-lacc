@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Contrate-me</title>
+        <link href="contrate-me-lucas-sanches.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <main>
+            <div id="pictureDiv">
+                <img src="profilePic.png" alt="Foto de Perfil" title="Foto de Perfil">                
+            </div>
+            <div class="infoContainer">
+                <hr>
+                <h3>Qualificações</h3>
+                <ul>
+                    <li>3 anos de experiência em HTML, CSS e Javascript;</li>
+                    <li>2 anos de experiência em C#;</li>
+                    <li>2 anos de experiência em Python;</li>
+                    <li>2 anos de experiência em QA(Quality Assurance);</li>
+                    <li>Proativo;</li>
+                </ul>
+            </div>
+            <div class="infoContainer">
+                <hr>
+                <form>
+                    <div class="formDivs">
+                        <div class="labelDivs">
+                            <label for="interessado">Nome do Interessado</label>
+                        </div>
+                        <div>
+                            <input type="text" id="interessado" name="interessado">
+                        </div>
+                    </div>
+                    <div class="formDivs">
+                        <div class="labelDivs">
+                            <label for="empresa">Nome da Empresa</label>
+                        </div>
+                        <div>
+                            <input type="text" id="empresa" name="empresa">
+                        </div>                        
+                    </div>
+                    <div class="formDivs">
+                        <div class="labelDivs">
+                            <label for="salario">Sálario</label>
+                        </div>
+                        <div>
+                            <input type="number" id="salario" name="salario" min="4000,00" max="5000,00" value="5000,00">
+                        </div>                        
+                    </div>
+                    <div class="formDivs">
+                        <div class="labelDivs">
+                            <p>Tipo de Trabalho</p>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="home" name="home" value="Home Office">
+                            <label for="home">Home Office</label><br>
+                            <input type="checkbox" id="presencial" name="presencial" value="Presencial">
+                            <label for="presencial">Presencial</label><br>
+                            <input type="checkbox" id="misto" name="misto" value="Misto">
+                            <label for="misto">Misto</label>
+                        </div>                        
+                    </div>
+                    <div class="formDivs">
+                        <div class="labelDivs">
+                            <p>Tipo de Vínculo</p>
+                        </div>
+                        <div>
+                            <input type="radio" id="clt" name="vinculo" value="CLT">
+                            <label for="clt">CLT</label><br>
+                            <input type="radio" id="pj" name="vinculo" value="PJ">
+                            <label for="pj">PJ</label><br>
+                            <input type="radio" id="freelancer" name="vinculo" value="Freelancer">
+                            <label for="freelancer">Freelancer</label>
+                        </div>
+                    </div>
+                    <div class="formDivs">
+                        <div class="labelDivs">
+                            <label for="inicio">Data de Início</label>
+                        </div>
+                        <div>
+                            <input type="date" id="inicio" name="inicio">
+                        </div>
+                    </div>
+                    <div class="formDivs">
+                        <div class="labelDivs">
+                            <p>Preciso do seus serviços com urgência!</p>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="urgencia" name="urgencia" value="Urgencia">
+                        </div>
+                    </div>
+                    <input id="enviarBtn" type="button" value="Enviar">
+                </form>
+            </div>
+            <div class="infoContainer">
+                <hr>
+                <h3><a href="curriculo-lucas-sanches.html">Currículo</a></h3>
+            </div>
+        </main>
+    </body>
+</html>
